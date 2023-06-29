@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Josh Kassman's website</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style type="text/css">
+    body {
+        font-family: "Helvetica", "Arial", sans-serif;
+        line-height: 1.5;
+        color: #333333;
+        -moz-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        margin: 0;
+        padding: 0;
+    }
+
+    header,
+    main {
+        margin: 0 auto;
+        max-width: 50em;
+    }
+
+    header {
+        background-color: #687B97;
+        background-image: url("header.jpg");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        line-height: 1.2;
+        max-width: none;
+        padding: 10vw 2em;
+        text-align: center;
+    }
+
+    header h1 {
+        color: white;
+        font-size: 3.5em;
+        font-weight: 300;
+    }
+
+    main {
+        padding: 4em 1em;
+    }
+
+    a {
+        color: #E4572E;
+    }
+
+    a strong {
+        color: inherit;
+    }
+
+    img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    h2 {
+        margin-top: 1em;
+        padding-top: 1em;
+    }
+
+    h1,
+    h2,
+    h3,
+    strong {
+        color: #111111;
+        font-weight: 500;
+    }
+
+    .tiles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .tile {
+        background-color: #b2caff;
+        padding: 1em;
+        margin: 0.1em;
+        border-radius: 10px;
+        flex: 1;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Welcome to my corner of the internet</h1>
+    </header>
+    <main>
+        <p>Hello! Ny name is Josh, and I am a data scientist that likes to dabble in web development. For this page, I
+            decided to go back to the basics by using just html and css. Go check out my <a
+                href="https://github.com/JMKassman">GitHub</a> to see the source code for this page, and for all of my
+            other projects listed below.</p>
+        <h2>Notable Projects</h2>
+        <div class="tiles">
+            <div class="tile">
+                <h3>Gas Tracker</h3>
+                <p>A website I built to learn the MERN stack, and to track my gas usage over time</p>
+                <p><a href="https://gastracker.jmkassman.com">Link</a></p>
+                <p><a href="https://github.com/JMKassman/gas-tracker">Code</a></p>
+            </div>
+            <div class="tile">
+                <h3>Spotify Playlist Shuffler</h3>
+                <p>A jupyter notebook used to shuffle spotify playlists</p>
+                <p><a href="https://github.com/JMKassman/spotify-playlist-shuffler">Code</a></p>
+            </div>
+            <div class="tile">
+                <h3>Euchre Trump Tracker</h3>
+                <p>A simple react based website used to keep track of the current trump while playing euchre</p>
+                <p><a href="http://euchre.jmkassman.com">Link</a></p>
+                <p><a href="https://github.com/JMKassman/euchre-trump-tracker">Code</a></p>
+            </div>
+        </div>
+        <h2>Blog Posts</h2>
+        <div class="tiles">
+            <div class="tile">
+                <h3>Protecting loyalty with pickup substitution analysis</h3>
+                <p>My first published blog post talking about a commercial solution I developed that helps CPGs
+                    understand shopper behavior after pickup substitutions</p>
+                <p><a
+                        href="https://www.8451.com/knowledge-hub/loyalty/protecting-loyalty-with-pickup-substitution-analysis">Link</a>
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
